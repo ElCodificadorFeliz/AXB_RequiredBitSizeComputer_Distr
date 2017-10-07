@@ -49,12 +49,14 @@ public class RequiredBitSizeComputer {
         //###                  VVVVVVVV
         //###                     VV
         
+        
         int resu;
         resu = 0;
         
         // berechne die Anzahl der benoetigten Bits um number zu codieren
         
         return resu;
+        
         
         //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     }//method()
