@@ -1,0 +1,95 @@
+# .gitignore for Eclipse
+# ======================
+#
+# author    Michael Schaefers ;  P1@Hamburg-UAS.eu
+# version   2017/10/02
+#
+#
+# Unfortunately,
+#->     *                       # wont work part1 :'-(
+#->     !**/.java               # wont work part2 :'-(
+# is not working - you can NOT reinclude files in directories this way
+# hence: try to do something similiar to exclude everything and then reinclude *.java source afterwards
+# e.g.:  !/*.java   or   !path/*.java   will work
+
+
+
+
+
+!.gitignore
+!readme.md
+!ReadMe.txt
+
+
+
+
+
+# for safety's sake
+#==================
+#
+# exclude BlueJ/project specific stuff:
+**/*.class
+**/*.ctxt
+**/doc
+**/package.bluej
+#
+# exclude OS specific stuff:
+# exclude annoying stuff: DOSe
+"System Volume Information"
+**/Thumbs.db
+**/*.swp
+# exclude annoying stuff: Mac OS X
+**/.DS_Store
+#
+#
+# exclude the very synchronize script (respectively "check-in" script), since problems might occur, if synchronize script checks itself in (synchronize was named check-in before)
+synchronizeWithOriginMasterBranch.bash
+check-in
+
+
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# THE END  -  END OF SCRIPT
+#==========================
+#
+#
+#VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+#
+# => only the listed exceptions in the current directory are checked in
+#
+# "!.gitignore"
+#     including ".gitignore" results in same (git-)behavior everywhere - is this wanted?
+#
+# "*" 
+#     excludes everything - unfortunately it is NOT supported to (re)include a (sub-)directory afterwards (2014/10/15)
+#
+#     but, you can type directly in GIT bash e.g.:
+#     "git add --force CEPtemplate/Project/*.h"
+#     "git add --force CEPtemplate/Project/*.c"
+#
+#
+#
+# see:
+#
+# http://git-scm.com/docs/gitignore
+#
+# http://stackoverflow.com/questions/6919121/why-are-there-2-ways-to-unstage-a-file-in-git
+# git rm --cached
+# git reset HEAD file
+#
+# http://stackoverflow.com/questions/12191254/gitignore-continue-to-track-file-after-adding-it-once-by-force
+#
+#
+#
+#
+#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Checklist of file that might be checked in
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# ...
+#
