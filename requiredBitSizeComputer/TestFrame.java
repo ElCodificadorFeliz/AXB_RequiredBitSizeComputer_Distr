@@ -12,6 +12,11 @@ import java.util.Scanner;
  */
 public class TestFrame {
     
+    /**
+     * method to start test
+     * 
+     * @param unused  is unused ;-)
+     */
     public static void main( final String... unused ){
         try(
             final Scanner workAroundForSeriousUserInterface = new Scanner( System.in );
