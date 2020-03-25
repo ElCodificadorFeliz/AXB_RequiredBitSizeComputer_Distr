@@ -7,7 +7,7 @@ package requiredBitSizeComputer;
  * 
  * Auch ist diese Art von Kommentar KEIN guter Kommentar.
  * Wir nutzen den Kommentar "hier" fuer Erklaerungen und Ausfuehrungen zur
- * Aufgabenstellung. Es  gilt "hier" die Regel:
+ * Aufgabenstellung. Es gilt "hier" die Regel:
  *  o) "Kommentar" der Kommentar ist in englisch.
  *  o) "Kommentar" der die Aufgabenstellung vertieft in deutsch.
  * Loeschen Sie derartigen Kommentar vor der Abgabe.
