@@ -1,13 +1,13 @@
 package requiredBitSizeComputer;
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * Wir erinnern uns: NIEMALS verschiedene Spachen in einem Programm mixen.
- * Oder konkreter: Entweder Identifier und Kommentar in deutsch oder in englisch.
+ * Oder konkreter: Entweder Code, Variablen und Kommentar in deutsch oder in englisch.
  * Es gelten die in der Vorlesung besprochenen Regeln.
  * Es lohnt sich immer, die Vorlesungsinhalte zu kennen ;-)
  * 
  * Auch ist diese Art von Kommentar KEIN guter Kommentar.
  * Wir nutzen den Kommentar "hier" fuer Erklaerungen und Ausfuehrungen zur
- * Aufgabenstellung. Es gilt "hier" die Regel:
+ * Aufgabenstellung. Es  gilt "hier" die Regel:
  *  o) "Kommentar" der Kommentar ist in englisch.
  *  o) "Kommentar" der die Aufgabenstellung vertieft in deutsch.
  * Loeschen Sie derartigen Kommentar vor der Abgabe.
