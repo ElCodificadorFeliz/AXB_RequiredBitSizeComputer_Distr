@@ -1,5 +1,5 @@
 package requiredBitSizeComputer;
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * Wir erinnern uns: NIEMALS verschiedene Spachen in einem Programm mixen.
  * Oder konkreter: Entweder Code, Variablen und Kommentar in deutsch oder in englisch.
  * Es gelten die in der Vorlesung besprochenen Regeln.
@@ -13,7 +13,7 @@ package requiredBitSizeComputer;
  * Loeschen Sie derartigen Kommentar vor der Abgabe.
  * 
  * Im Rahmen der Aufgabenstellung muessen Sie GUTEN Kommentar schreiben.
- * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
 
