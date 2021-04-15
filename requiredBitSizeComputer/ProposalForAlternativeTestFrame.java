@@ -51,59 +51,18 @@ public class ProposalForAlternativeTestFrame {
             
             
             // Z.B. bzw. nur als erste Start-Idee/Anregung, wie so etwas aussehen koennte
-            // Es sollten die Zahlen auf den "Grenzen" genommen werden - also (2^n)-1 und 2^n
             long number;
             int bitSize;
             //
-            number = 0;
+            number = 100;
             bitSize = requiredBitSizeComputer.computeBitSize( number );
             System.out.printf( "Fuer die Zahl %d werden %d Bit(s) benoetigt.\n",  number, bitSize );
             System.out.print( "\n\n" );
             //
-            number = 1;
+            number = 200;
             bitSize = requiredBitSizeComputer.computeBitSize( number );
             System.out.printf( "Fuer die Zahl %d werden %d Bit(s) benoetigt.\n",  number, bitSize );
             System.out.print( "\n\n" );
-            //
-            number = 2;
-            bitSize = requiredBitSizeComputer.computeBitSize( number );
-            System.out.printf( "Fuer die Zahl %d werden %d Bit(s) benoetigt.\n",  number, bitSize );
-            System.out.print( "\n\n" );
-            //
-            number = 3;
-            bitSize = requiredBitSizeComputer.computeBitSize( number );
-            System.out.printf( "Fuer die Zahl %d werden %d Bit(s) benoetigt.\n",  number, bitSize );
-            System.out.print( "\n\n" );            //...
-            //
-            number = 4;
-            bitSize = requiredBitSizeComputer.computeBitSize( number );
-            System.out.printf( "Fuer die Zahl %d werden %d Bit(s) benoetigt.\n",  number, bitSize );
-            System.out.print( "\n\n" );
-            //
-            number = 255;
-            bitSize = requiredBitSizeComputer.computeBitSize( number );
-            System.out.printf( "Fuer die Zahl %d werden %d Bit(s) benoetigt.\n",  number, bitSize );
-            System.out.print( "\n\n" );
-            //
-            number = 256;
-            bitSize = requiredBitSizeComputer.computeBitSize( number );
-            System.out.printf( "Fuer die Zahl %d werden %d Bit(s) benoetigt.\n",  number, bitSize );
-            System.out.print( "\n\n" );
-            //
-            number = 140737488355328L;
-            bitSize = requiredBitSizeComputer.computeBitSize( number );
-            System.out.printf( "Fuer die Zahl %d werden %d Bit(s) benoetigt.\n",  number, bitSize );
-            System.out.print( "\n\n" );
-            //
-            number = 281474976710655L;
-            bitSize = requiredBitSizeComputer.computeBitSize( number );
-            System.out.printf( "Fuer die Zahl %d werden %d Bit(s) benoetigt.\n",  number, bitSize );
-            System.out.print( "\n\n" );
-            //
-            number = 9223372036854775807L;
-            bitSize = requiredBitSizeComputer.computeBitSize( number );
-            System.out.printf( "Fuer die Zahl %d werden %d Bit(s) benoetigt.\n",  number, bitSize );
-            System.out.print( "\n\n" );            
             
             
             //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
