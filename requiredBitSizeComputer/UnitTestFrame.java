@@ -1,17 +1,19 @@
 package requiredBitSizeComputer;
 
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
-//
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
 
 
 /**
- * TestFrame for grade converter (Notenpunkte -> "alte Schulnote")
+ * TestFrame ...
  * 
  * @author   Michael Schaefers ;  P1@Hamburg-UAS.eu 
- * @version  2017/10/05
+ * @version  2021/04/01
  */
 public class UnitTestFrame {
     
@@ -21,7 +23,8 @@ public class UnitTestFrame {
     
     
     
-    @Test( timeout = commonLimit )
+    @Test
+    @Timeout(value=commonLimit,unit=TimeUnit.MILLISECONDS)
     public void test0(){
         for( int i=1; i<63; i++ ) {
             final RequiredBitSizeComputer rbsc = new RequiredBitSizeComputer();
@@ -30,7 +33,8 @@ public class UnitTestFrame {
         }//for
     }//method()    
     
-    @Test( timeout = commonLimit )
+    @Test
+    @Timeout(value=commonLimit,unit=TimeUnit.MILLISECONDS)
     public void test2pNm1(){
         for( int i=1; i<64; i++ ) {
             final RequiredBitSizeComputer rbsc = new RequiredBitSizeComputer();
@@ -39,7 +43,8 @@ public class UnitTestFrame {
         }//for
     }//method()    
     //
-    @Test( timeout = commonLimit )
+    @Test
+    @Timeout(value=commonLimit,unit=TimeUnit.MILLISECONDS)
     public void test2pN(){
         for( int i=0; i<63; i++ ) {
             final RequiredBitSizeComputer rbsc = new RequiredBitSizeComputer();
@@ -48,7 +53,8 @@ public class UnitTestFrame {
         }//for
     }//method()    
     
-    @Test( timeout = commonLimit )
+    @Test
+    @Timeout(value=commonLimit,unit=TimeUnit.MILLISECONDS)
     public void testXXX(){
         doTestRaisingException( -1 );
         doTestRaisingException( -13 );

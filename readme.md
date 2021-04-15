@@ -1,1 +1,1 @@
-P1 SS20 (ITS1) Aufgabenzettel#1 Z1.3
+P1 SS21 (ITS1) Required Bit Size Computer
