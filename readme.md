@@ -1,1 +1,1 @@
-P1 SS21 (ITS1) Grade Converter
+P1 :  Required Bit Size Computer
